@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tops Demo</string>
+
+
+    <string name="phone_number">Phone Number</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+
+    <string name="enter_mobile_number">Enter your mobile number</string>
+    <string name="create_account">Enter your mobile number to create an account or sign in </string>
+    <string name="internet_not_available">Kindly check the internet connection</string>
+
+    <string name="verify_your_mobile_number">Verify your mobile number</string>
+    <string name="resend_code">Resend Code</string>
+
+    <string name="verify">Verify</string>
+    <string name="one">1:00</string>
+    <string name="please_enter_first_name">Please enter first name</string>
+    <string name="please_enter_last_name">Please enter last name</string>
+    <string name="please_enter_email_address">Please enter e-mail address</string>
+    <string name="please_enter_valid_email_address">Please enter valid e-mail address</string>
+    <string name="concat_string">%s %s</string>
+    <string name="logout">Logout</string>
+    <string name="type_message">Type message..</string>
+    <string name="no_chat_found">No chat Found</string>
+
+    <string name="please_enter_message">Please enter message</string>
+</resources>

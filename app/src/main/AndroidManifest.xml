@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.demo">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SampleDemo">
+
+        <activity
+            android:name=".ui.splash.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.authentication.login.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.authentication.profile.activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.authentication.verification.activity.VerificationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.dashboard.activity.DashboardActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.chat.activity.ChatActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
