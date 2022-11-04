@@ -2,11 +2,17 @@ This repository is the demonstration of Chat and Video call functionality using 
 Supported Feature:
 
 Login (Firebase - Phone Authentication)
+
 Signup (Firebase - Firestore)
+
 One-to-One Video Call (Firebase  + Jitsi Meet)
+
 Group Video Call (Firebase  + Jitsi Meet)
+
 One-to-One Chat (Firebase)
+
 Group Chat (Firebase)
+
 Chat support (Text, Image, Video)
 
 Technical detail:
